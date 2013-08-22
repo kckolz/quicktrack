@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/kolz/!svn/ver/32/QuickTrack
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/kolz/!svn/ver/8/QuickTrack/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/kolz/!svn/ver/32/QuickTrack/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/kolz/!svn/ver/3/QuickTrack/proguard.cfg
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kolz/!svn/ver/32/QuickTrack/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/kolz/!svn/ver/3/QuickTrack/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/kolz/!svn/ver/31/QuickTrack/AndroidManifest.xml
+END

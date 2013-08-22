@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:gravity="center_vertical"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise Name"/>
+    <EditText
+    	android:id="@+id/newexercise"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+    />
+    <Button android:id="@+id/saveexercisebutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="20dp"
+			android:text="@string/saveexercise_button" />
+</LinearLayout>

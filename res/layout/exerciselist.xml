@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/exerciselist"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ListView
+	    android:id="@+id/android:list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+    <TextView
+	    android:id="@+id/android:empty"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/no_exercises"/>
+	    
+   	<Button android:id="@+id/addexercisebutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="20dp"
+			android:layout_alignParentBottom="true"
+			android:text="@string/addexercise_button" />
+		
+</RelativeLayout>

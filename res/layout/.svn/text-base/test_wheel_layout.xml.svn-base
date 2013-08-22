@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ 
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/layout_bg"> 
+ 
+	<LinearLayout
+		android:id="@+id/titlecontainer"
+		android:orientation="horizontal"
+		android:gravity="center_horizontal"
+		android:layout_alignParentTop="true"
+		android:layout_centerInParent="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		> 
+		<TextView
+			android:id="@+id/reptitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/rep_title"
+			android:layout_marginLeft="-35dp"
+			android:textSize="18sp"
+			android:textColor="#000"> 
+		</TextView> 
+		<TextView
+			android:id="@+id/weighttitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="25dp"
+			android:layout_marginRight="35dp"
+			android:text="@string/weight_title"
+			android:textSize="18sp"
+			android:textColor="#000"> 
+		</TextView> 
+		<TextView
+			android:id="@+id/modtitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:text="@string/mod_title"
+			android:textSize="18sp"
+			android:textColor="#000"> 
+		</TextView> 
+	</LinearLayout> 
+ 
+	<LinearLayout
+		android:id="@+id/wheelcontainer"
+		android:layout_below="@id/titlecontainer"
+		android:layout_marginTop="5dp"
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"> 
+ 
+		<kolz.android.wheel.WheelView
+			android:id="@+id/p1"
+			android:layout_height="wrap_content"
+			android:layout_width="100dp" /> 
+		<kolz.android.wheel.WheelView
+			android:id="@+id/p2"
+			android:layout_height="wrap_content"
+			android:layout_width="100dp" /> 
+		<kolz.android.wheel.WheelView
+			android:id="@+id/p3"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp" /> 
+	</LinearLayout> 
+	
+	<Button android:id="@+id/savesetbutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="20dp"
+			android:layout_alignParentBottom="true"
+			android:text="@string/save_set" /> 
+	
+	<LinearLayout
+		android:id="@+id/editcontainer"
+		android:layout_below="@id/wheelcontainer"
+		android:orientation="horizontal"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"> 
+		<EditText
+			android:id="@+id/r1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="18sp"
+			android:textColor="#000"> 
+		</EditText> 
+		<EditText
+			android:id="@+id/r2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="18sp"
+			android:textColor="#000"> 
+		</EditText> 
+	</LinearLayout> 
+	<LinearLayout
+		android:id="@+id/listcontainer"
+		android:layout_below="@id/editcontainer"
+		android:layout_above="@id/savesetbutton"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="-22dp">
+		<ListView 
+			android:id="@+id/setlist"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="24dp"
+			android:layout_centerInParent="true"> 
+		</ListView> 	
+	</LinearLayout>
+
+</RelativeLayout>

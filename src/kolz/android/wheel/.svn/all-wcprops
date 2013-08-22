@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/kolz/!svn/ver/25/QuickTrack/src/kolz/android/wheel
+END
+WheelView.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/kolz/!svn/ver/25/QuickTrack/src/kolz/android/wheel/WheelView.java
+END
+OnWheelChangedListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kolz/!svn/ver/25/QuickTrack/src/kolz/android/wheel/OnWheelChangedListener.java
+END
+ArrayWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/kolz/!svn/ver/25/QuickTrack/src/kolz/android/wheel/ArrayWheelAdapter.java
+END
+WheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kolz/!svn/ver/25/QuickTrack/src/kolz/android/wheel/WheelAdapter.java
+END
+OnWheelScrollListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/kolz/!svn/ver/25/QuickTrack/src/kolz/android/wheel/OnWheelScrollListener.java
+END
+NumericWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kolz/!svn/ver/25/QuickTrack/src/kolz/android/wheel/NumericWheelAdapter.java
+END
